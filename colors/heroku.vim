@@ -15,10 +15,10 @@ let colors_name = "heroku"
 
 hi DiffAdd      guibg=MediumSeaGreen
 hi Directory    guifg=#9587EB
-hi ErrorMsg     guibg=Firebrick2 guifg=White
+hi ErrorMsg     gui=bold guibg=NONE guifg=Firebrick2
 hi FoldColumn   guibg=NONE guifg=#6e65bc
 hi Folded       guibg=NONE guifg=#6e65bc
-hi IncSearch    gui=reverse
+hi IncSearch    gui=NONE guibg=#35AFED guifg=#000000
 hi ModeMsg      gui=bold
 hi MoreMsg      gui=bold guifg=SeaGreen4
 hi NonText      gui=NONE guifg=#515468
@@ -58,7 +58,7 @@ hi Underlined   gui=underline guifg=SteelBlue1
 hi Boolean      gui=NONE guifg=DeepPink4 guibg=NONE
 hi Comment      gui=italic guifg=CadetBlue3
 hi Constant     gui=NONE guifg=#69CA94 guibg=NONE
-hi Cursor       guibg=#35AFED guifg=bg
+hi Cursor       gui=bold guibg=#35AFED guifg=#000000
 hi CursorColumn guibg=Gray20
 hi CursorIM     guibg=LightSlateGrey guifg=bg
 hi CursorLine   guibg=#2C2C3A
@@ -68,7 +68,7 @@ hi DiffText     gui=NONE guifg=White guibg=SteelBlue
 hi LineNr       guifg=#545282 guibg=NONE
 hi MatchParen   guifg=#35AFED guibg=NONE
 hi Normal       guifg=#909090 guibg=#1C1C1C
-hi Search       guibg=Blue4 guifg=NONE
+hi Search       guibg=#373849 guifg=#CED2FE
 hi Statement    gui=bold guifg=#6CAEFF guibg=NONE
 hi Todo         gui=NONE guifg=Green4 guibg=DeepSkyBlue1
 hi Type         gui=bold guifg=#8D79F2 guibg=NONE
